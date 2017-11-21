@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
-@font-face{font-family:'Noto Sans KR'; src:url('/NotoSans-Regular.ttf')}
+@font-face{font-family:'Noto Sans KR'; src:url('../fonts/NotoSans-Regular.ttf')}
 
 html,
 text {
