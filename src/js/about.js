@@ -1,3 +1,5 @@
+import "../css/about.css";
+
 $('.skillWrap').click(function() {
 
     if ($(window).height() > 767) {

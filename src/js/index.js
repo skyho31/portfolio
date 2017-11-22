@@ -1,3 +1,6 @@
+import "../css/glyphicons.css";
+import '../css/index.css';
+
 $('.menuBox').click(function() {
 
     var openState = $(this).attr('openState');

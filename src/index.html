@@ -10,16 +10,12 @@
     <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/portpolio-sho.appspot.com/o/titlePic.png?alt=media&token=325d8e25-cae0-4689-bc3d-78adb42c6fcb">
     <title>S.ho's portfolio</title>
     <link rel="icon" href="./img/rever.ico">
-    <link href="./src/css/glyphicons.css" rel="stylesheet">
-    <link href="./src/css/index.css" rel="stylesheet">
-    <link href="./src/css/works.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <span class="pageTitle">WORKS</span>
         <div class="menuBox" openState='0'>
-            <!--<span class="glyphicons glyphicons-justify" id="menuButton"></span>-->
             <span id="customButton"></span>
         </div>
     </header>
@@ -47,7 +43,7 @@
                     <li>Google Apps</li>
                 </ul>
             </div>
-            <div class="works piece one" style="background: url('./img/img1.jpg');">
+            <div class="works piece one" style="background-image: url('${require(`./img/img1.jpg`)}');">
                 <div class="pieceWrap"></div>
             </div>
             <div class="works title">
@@ -60,7 +56,7 @@
                     <li>Bootstrap</li>
                 </ul>
             </div>
-            <div class="works piece two" style="background: url('./img/img2.jpg');">
+            <div class="works piece two" style="background-image: url('${require(`./img/img2.jpg`)}');">
                 <div class="pieceWrap"></div>
             </div>
             <div class="works title">
@@ -73,7 +69,7 @@
                     <li>Firebase</li>
                 </ul>
             </div>
-            <div class="works piece three" style="background: url('./img/img3.jpg');">
+            <div class="works piece three" style="background-image: url('${require(`./img/img3.jpg`)}');">
                 <div class="pieceWrap"></div>
             </div>
             <div class="works title">
@@ -86,7 +82,7 @@
                     <li>Firebase</li>
                 </ul>
             </div>
-            <div class="works piece three" style="background: url('./img/img4.jpg');">
+            <div class="works piece three" style="background-image: url('${require(`./img/img4.jpg`)}');">
                 <div class="pieceWrap"></div>
             </div>
             <div class="works title">
@@ -99,14 +95,13 @@
                     <li>Firebase</li>
                 </ul>
             </div>
-            <div class="works piece three" style="background: url('./img/img5.png');">
+            <div class="works piece three" style="background-image: url('${require(`./img/img5.png`)}');">
                 <div class="pieceWrap"></div>
             </div>
         </div>
     </section>
     <!-- JQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="./src/js/index.js"></script>
 </body>
 
 </html>
