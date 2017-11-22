@@ -2,5 +2,5 @@
 private portfolio site
 
 # npm command
-npm run build / webpack-dev-server
-npm run build:prod / webpack -p
+<b>npm run build</b> / webpack-dev-server<br>
+<b>npm run build:prod</b> / webpack -p
