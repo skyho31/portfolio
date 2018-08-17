@@ -55,6 +55,10 @@ b{
 	background: rgba(0,0,0,.5);
 }
 
+.piece.console {
+ height:auto;
+}
+
 .skillBox{
 	float: right;
 	list-style: none;
@@ -94,4 +98,8 @@ b{
     	float:right;
     	margin:0 2px;
     }
+}
+
+.github {
+    color:cornflowerblue;
 }
