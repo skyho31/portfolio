@@ -16,7 +16,7 @@ module.exports = {
     works: "./src/js/works.js"
   },
   output: {
-    path: path.resolve(__dirname, "doc"),
+    path: path.resolve(__dirname, "docs"),
     filename: "[name].js"
   },
   module: {
