@@ -15,6 +15,9 @@ const Card = (value) => {
     height:'80px', border:'none'
   }
 
+  const cardClasses = ['pieceWrap'];
+  if(imgPath) cardClasses.push('hasImg');
+
   return (
     <div>
       <div className="works title">
@@ -33,8 +36,8 @@ const Card = (value) => {
           })}
         </ul>
       </div>
-      <div className="works piece" style={cardStyle}>
-        <div className="pieceWrap"></div>
+      <div className="works piece"style={cardStyle}>
+        <div className={cardClasses.join(' ')}></div>
       </div>
     </div>
   )
