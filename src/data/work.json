@@ -71,6 +71,17 @@
       ],
       "git": [ "https://github.com/skyho31/revine_cnn/blob/master/submit_flip_9395.ipynb"],
       "imgPath": "./imgs/deep.png"
+    },
+    {
+      "title": "Portfolio, 2018",
+      "description": "My portfolio Site ver.React",
+      "skill": [
+        "Javascript", "Webpack", "React"
+      ],
+      "git": [
+        "https://github.com/skyho31/portfolio/"
+      ],
+      "imgPath": ""
     }
   ]
 }
