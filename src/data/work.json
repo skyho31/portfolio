@@ -1,0 +1,76 @@
+{
+  "items" : [
+    {
+      "title": "BUCKBUCK, 2015",
+      "description": "AMERICAN ECONOMIC INDICATOR",
+      "skill": [
+        "WIX", "Google Apps"
+      ],
+      "imgPath": "./imgs/img1.jpg"
+    },
+    {
+      "title": "STUDYES 1.0, 2016 / REVER",
+      "description": "Real-time Studyroom Reservation WebApp",
+      "skill": [
+        "Javascript", "JQuery", "Bootstrap"
+      ],
+      "imgPath": "./imgs/img2.jpg"
+    },
+    {
+      "title": "STUDYES 2.0, 2017 / REVER",
+      "description": "Instance Group Making App for Contest",
+      "skill": [
+        "Javascript", "React-native", "Firebase"
+      ],
+      "imgPath": "./imgs/img3.jpg"
+    },
+    {
+      "title": "Uploader Saver, 2017",
+      "description": "Copyright search web application for Uploader",
+      "skill": [
+        "Javascript", "React", "Firebase"
+      ],
+      "imgPath": "./imgs/img4.jpg"
+    },
+    {
+      "title": "Coffee Story, 2017",
+      "description": "Homepage for coffeeShop",
+      "skill": [
+        "Javascript", "React", "Firebase"
+      ],
+      "imgPath": "./imgs/img5.png"
+    },
+    {
+      "title": "PMO, 2017 / N3N",
+      "description": "algorithm bot in goldmine game(N3N)",
+      "skill": [
+        "Javascript", "NodeJS"
+      ],
+      "git": ["https://github.com/skyho31/miner_pmo"],
+      "imgPath": ""
+    },
+    {
+      "title": "Bitmo, 2018",
+      "description": "cryptocurrency algorithm trading bot",
+      "skill": [
+        "Javascript", "NodeJS"
+      ],
+      "git": [
+        "https://github.com/skyho31/revmo",
+        "https://github.com/skyho31/revmo_trader", 
+        "https://github.com/skyho31/bitmoBot/tree/master/bitmo_alpha", 
+        "https://github.com/skyho31/bitmo"
+      ],
+      "imgPath": ""
+    },
+    {
+      "title": "fashion mnist cnn, 2018",
+      "description": "vgg like cnn",
+      "skill": [
+        "Python", "Cupy", "Google Colab", "jupyter"
+      ],
+      "git": [ "https://github.com/skyho31/revine_cnn/blob/master/submit_flip_9395.ipynb"],
+      "imgPath": "./imgs/deep.png"
+    }
+  ]
+}

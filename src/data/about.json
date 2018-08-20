@@ -1,0 +1,142 @@
+{
+  "history": [
+    [{
+        "time": "88년 9월",
+        "content": "출생"
+      },
+      {
+        "time": "10살",
+        "content": "컴퓨터 수리공 아저씨를 보며 컴퓨터에 관심을 갖음"
+      },
+      {
+        "time": "11살",
+        "content": "집에 꽂혀 있던 DOS 책 완독 후 컴퓨터 자가 수리 시작. 잦은 포맷과 설치 반복으로 부모님께 혼남"
+      }
+    ],
+    [
+      {
+        "time": "21살",
+        "content": "한양대학교 법학과 입학"
+      },
+      {
+        "time": "26살 3월",
+        "content": "늦은 나이에 군 입대"
+      },
+      {
+        "time": "27살",
+        "content": "군에서 자기계발 중 동기였던 컴공생의 영향으로 C와 JAVA책을 보기 시작함"
+      },
+      {
+        "time": "28살 1월",
+        "content": "학교 검수팀에서 교내 컴퓨터 유지 보수 업무 담당"
+      },
+      {
+        "time": "28살 2월",
+        "content": "경제 지표 사이트 Buckbuck 개발"
+      },
+      {
+        "time": "28살 6월",
+        "content": "실시간 스터디룸 예약사이트 '스터디스' 기획 및 프론트엔드 담당"
+      },      {
+        "time": "28살 12월",
+        "content": "한양 스타트업 아카데미 수료"
+      }
+    ],
+    [
+      {
+        "time": "29살 2월",
+        "content": "법학사 졸업 및 스타트업 REVER 창업"
+      },
+      {
+        "time": "29살 2월",
+        "content": "REVER의 대표 겸 개발 및 기획 담당"
+      },
+      {
+        "time": "29살 3월",
+        "content": "스터디스 1.0 완성"
+      },
+      {
+        "time": "29살 6월",
+        "content": "인스턴스 스터디 플랫폼 앱 '스터디스 2.0' 기획 및 풀스택 참여"
+      },
+      {
+        "time": "30살 6월",
+        "content": "N3N 웹파트 연구원"
+      },      
+      {
+        "time": "30살 12월",
+        "content": "N3N 사내 알고리즘 대회 Goldmine 우승"
+      }
+    ],
+    [
+      {
+        "time": "31살 1월",
+        "content": "N3N DataEngine 파트 연구원"
+      },
+      {
+        "time": "31살 2월",
+        "content": "가상화폐 알고리즘 트레이딩 봇, bitmo 개발"
+      },
+      {
+        "time": "31살 6월",
+        "content": "모두의 연구소, '딥러닝 설레는 첫만남' 수료, 특별상"
+      }
+    ]
+  ],
+  "skill": {
+    "useable": [{
+        "name": "HTML5",
+        "imgPath": "./imgs/html.jpg"
+      },
+      {
+        "name": "CSS3",
+        "imgPath": "./imgs/css3.jpg"
+      },
+      {
+        "name": "Javascript",
+        "imgPath": "./imgs/js.jpg"
+      },
+      {
+        "name": "JQuery",
+        "imgPath": "./imgs/jQuery.jpg"
+      },
+      {
+        "name": "Bootstrap",
+        "imgPath": "./imgs/bootstrap.jpg"
+      },
+      {
+        "name": "React",
+        "imgPath": "./imgs/react.jpg"
+      },
+      {
+        "name": "Firebase",
+        "imgPath": "./imgs/firebase.jpg"
+      },
+      {
+        "name": "node.js",
+        "imgPath": "./imgs/node.jpg"
+      },
+      {
+        "name": "Node-RED",
+        "imgPath": "./imgs/Node-RED.png"
+      }
+    ],
+    "study": [{
+        "name": "python",
+        "imgPath": "./imgs/python.png"
+      },
+      {
+        "name": "Docker",
+        "imgPath": "./imgs/docker.png"
+      },
+      {
+        "name": "C++",
+        "imgPath": "./imgs/c++.png"
+      },
+      {
+        "name": "webpack",
+        "imgPath": "./imgs/webpack.png"
+      }
+    ]
+  }
+}

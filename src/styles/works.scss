@@ -1,0 +1,134 @@
+.section.work{
+    margin-bottom: 100px;
+    font-size: 8px;
+
+    .skillBox {
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .container {
+        max-width: 1180px;
+        margin: auto;
+        margin-bottom: 40px;
+
+        .works {
+            text-align: center;
+            padding: 10px 30px;
+            
+            &.title {
+                width:90%;
+                padding-bottom:2px;
+                padding-left:4%;
+                padding-right:6%;
+                
+                p {
+                    font-size: 2em;
+                    text-align: right;
+                    margin-bottom: 0;
+                    color:black;
+                    margin-top: 30px;
+                    
+                    b {
+                        color:#ff6666;
+                        font-size:1.5em;
+                    }
+                }
+
+                .skillBox{
+                    float: right;
+                    list-style: none;
+                    
+                    li{
+                        background: rgba(0,0,0,.5);
+                        border-radius: 50px;
+                        margin-bottom:5px;
+                        padding:2px 10px;
+                        color:white;
+                        font-size:0.5em;
+                    }
+                }
+                
+                .git {
+                    margin: 0;
+                
+                    li {
+                        list-style: none;
+                        font-size: 2em;
+                        font-family: 'Open Sans Condensed', sans-serif;
+                        text-align: right;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        white-space: nowrap;
+                
+                        a.github {
+                            color:cornflowerblue;
+                        }
+                    }
+                }
+            }
+
+            &.piece {
+                padding:0;
+
+                .pieceWrap{
+                    width:100%;
+                    height:100%;
+                    border-radius: 20px;
+                    cursor:pointer;
+                
+                    &:hover {
+                        background: rgba(0,0,0,.5);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.piece {
+    height: 600px;
+    width: 90%;
+    margin: 0 5%;
+    border:1px solid gray;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-size:cover !important;
+}
+ 
+@media (max-width: 767px) {
+
+    .pageTitle {
+        visibility: hidden;
+    }
+    .works {
+        &.title {
+            p {
+                font-size: 1em;
+            }
+
+            b{
+                font-size: 1em
+            }
+        }
+
+        &.piece {
+            width: 90%;
+            margin: 0 5%;
+            height: 200px;
+            border-radius: 20px;
+        }
+    }
+
+    .skillBox{
+    	margin:10px;
+        padding:0;
+        
+        li{
+            float:right;
+            margin:0 2px;
+        }
+    }
+}

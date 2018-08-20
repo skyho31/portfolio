@@ -1,0 +1,19 @@
+.contactContainer {
+    display: flex;
+    align-items: center;
+	height: 100vh;
+	
+	.middleBox{
+		text-align: center;
+
+		img{
+			height:50px;
+			margin-bottom:20px;
+		}
+
+		p{
+			font-size:2em;
+			margin:0;
+		}
+	}
+}

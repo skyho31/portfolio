@@ -1,6 +1,4 @@
-# portfolio
-private portfolio site
+Revine's Portfolio
+==================
 
-# npm command
-<b>npm run dev</b> / webpack-dev-server<br>
-<b>npm run build</b> / webpack -p
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).

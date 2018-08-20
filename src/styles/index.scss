@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@font-face{font-family:'Noto Sans KR'; src:url('../fonts/NotoSans-Regular.ttf')};
+
+html,
+text {
+    font-family: 'Noto Sans KR', sans-serif;
+    -webkit-overflow-scrolling:touch;
+    background: white;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header {
+    .topbar {
+        position: fixed;
+        width: 100%;
+        background-color: transparent;
+        z-index: 2;
+
+        .pageTitle{
+            float:left;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 3em;
+            padding:30px;
+        }
+    }
+    
+    .menuBox {
+        float: right;
+        height: 130px;
+        width: 24px;
+        margin-right: 40px;
+        cursor: pointer;
+    
+        #customButton {
+            margin-top: 60px;
+            position: absolute;
+            width: 24px;
+            height: 2px;
+            background-color: black;
+            transform: translateY(-50%);
+            transition: all .25s ease;
+            -moz-transition: all .25s ease;
+            -webkit-transition: all .25s ease;
+            -o-transition: all .25s ease;
+        
+            &:before {
+                content: "";
+                position: absolute;
+                width: 24px;
+                height: 2px;
+                background-color: inherit;
+                transform: translateY(-6px);
+            }
+        
+            &:after {
+                content: "";
+                position: absolute;
+                width: 24px;
+                height: 2px;
+                background-color: inherit;
+                transform: translateY(6px);
+            }
+        }
+    
+        &:hover {
+            #customButton {
+                &:before {
+                    -moz-transform: translateY(-8px);
+                    -o-transform: translateY(-8px);
+                    -ms-transform: translateY(-8px);
+                    -webkit-transform: translateY(-8px);
+                    transform: translateY(-8px);
+                    transition: all .25s ease;
+                    -moz-transition: all .25s ease;
+                    -webkit-transition: all .25s ease;
+                    -o-transition: all .25s ease;
+                }
+                &:after {
+                    -moz-transform: translateY(8px);
+                    -o-transform: translateY(8px);
+                    -ms-transform: translateY(8px);
+                    -webkit-transform: translateY(8px);
+                    transform: translateY(8px);
+                    transition: all .25s ease;
+                    -moz-transition: all .25s ease;
+                    -webkit-transition: all .25s ease;
+                    -o-transition: all .25s ease;
+                }
+            }
+        }
+    
+        &.open {
+            #customButton {
+                visibility: hidden;
+                background-color:white;
+                &:before {
+                    -moz-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -webkit-transform: rotate(45deg);
+                    visibility: visible !important;
+                }
+                &:after {
+                    -moz-transform: rotate(-45deg);
+                    -o-transform: rotate(-45deg);
+                    -ms-transform: rotate(-45deg);
+                    -webkit-transform: rotate(-45deg);
+                    transform: rotate(-45deg);
+                    visibility: visible !important;
+                }
+            }
+        }
+    }
+    
+    .outScreen {
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: fixed;
+        background-color: rgba(0, 0, 0, .9);
+        text-align: center;
+        display:flex;
+        align-items: center;
+        opacity: 0;
+        visibility: hidden;
+    
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    
+        &.show {
+            visibility: visible;
+            opacity: 1;
+        }
+    
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    
+        ul {
+            padding: 0;
+            width: 100%;
+    
+            li {
+                color: white;
+                list-style: none;
+                text-align: center;
+                font-size: 3em;
+                font-family: 'Open Sans Condensed', sans-serif;
+            }
+        }
+    }
+}
+
+.section {
+    width: 100%;
+    padding-top:150px;
+}
+
+@media (max-width: 767px) {
+    .section {
+        padding-top: 80px;
+    }
+    #logo{
+    	height:40px;
+    }
+    .menuBox {
+        height: 80px;
+        margin-right: 20px;
+    }
+    #customButton {
+        margin-top: 40px;
+    }
+    .outScreen ul li {
+        font-size: 2em;
+    }
+    .pageTitle{
+    	font-size: 2em;
+    	padding:20px;
+    }
+    .topButtonBox{
+    	position: static;
+    	margin:auto;
+		margin-bottom:20px;
+		margin-top: 60px;
+    }
+
+}
