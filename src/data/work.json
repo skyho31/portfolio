@@ -76,7 +76,7 @@
       "title": "Portfolio, 2018",
       "description": "My portfolio Site ver.React",
       "skill": [
-        "Javascript", "Webpack", "React"
+        "Javascript", "Webpack", "React", "scss"
       ],
       "git": [
         "https://github.com/skyho31/portfolio/"
