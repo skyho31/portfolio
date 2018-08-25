@@ -41,6 +41,14 @@
       "imgPath": "./imgs/img5.png"
     },
     {
+      "title": "Wizeye 2.0 / N3N",
+      "description" : "Big Data Visualization Solution",
+      "skill": [
+        "React.js", "NodeJS", "Leaflet", "Docker",  "Webpack", "Semantic UI" 
+      ],
+      "imgPath": "./imgs/wizeye.png"
+    },
+    {
       "title": "PMO, 2017 / N3N",
       "description": "algorithm bot in goldmine game(N3N)",
       "skill": [
@@ -62,6 +70,14 @@
         "https://github.com/skyho31/bitmo"
       ],
       "imgPath": ""
+    },
+    {
+      "title": "DataEngine / N3N",
+      "description": "Data Engine for Wizeye",
+      "skill": [
+        "Javascript", "JQuery", "D3", "NodeJS", "Node-RED", "Grunt"
+      ],
+      "imgPath": "./imgs/dataengine.png"
     },
     {
       "title": "fashion mnist cnn, 2018",
